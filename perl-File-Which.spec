@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	File
-%define	pnam	Which
+%define		pdir	File
+%define		pnam	Which
 Summary:	File::Which Perl module - portable implementation of the `which' utility
 Summary(pl):	Modu³ Perla File::Which - przeno¶na implementacja programu `which'
 Name:		perl-File-Which
