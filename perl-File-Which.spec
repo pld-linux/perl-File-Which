@@ -26,7 +26,7 @@ executable programs on systems under which the `which' program wasn't
 implemented in the shell.
 
 %description -l pl
-Modu³ Perla File::Which powsta³, aby umo¿liwiæ znajdowanie scie¿ki
+Modu³ Perla File::Which powsta³, aby umo¿liwiæ znajdowanie ¶cie¿ki
 zadanego programu w systemach, w których program `which' nie jest
 dostêpny z pow³oki.
 
