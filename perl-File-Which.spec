@@ -9,7 +9,7 @@ Summary:	File::Which Perl module - portable implementation of the `which' utilit
 Summary(pl):	Modu³ Perla File::Which - przeno¶na implementacja programu `which'
 Name:		perl-File-Which
 Version:	0.05
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -36,7 +36,6 @@ dostêpny z pow³oki.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}
