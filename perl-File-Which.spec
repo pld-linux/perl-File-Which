@@ -10,7 +10,8 @@ Summary(pl):	Modu³ Perla File::Which - przeno¶na implementacja programu `which'
 Name:		perl-File-Which
 Version:	0.05
 Release:	2
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	bd671a65f770fc0a124095e74c7c8013
