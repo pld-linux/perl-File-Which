@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	Which
 Summary:	File::Which Perl module - portable implementation of the `which' utility
-Summary(pl.UTF-8):   Moduł Perla File::Which - przenośna implementacja programu `which'
+Summary(pl.UTF-8):	Moduł Perla File::Which - przenośna implementacja programu `which'
 Name:		perl-File-Which
 Version:	0.05
 Release:	4
