@@ -9,7 +9,7 @@ Summary:	File::Which Perl module - portable implementation of the `which' utilit
 Summary(pl.UTF-8):	Moduł Perla File::Which - przenośna implementacja programu `which'
 Name:		perl-File-Which
 Version:	0.05
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -53,6 +53,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{_bindir}/*
+%attr(755,root,root) %{_bindir}/*
 %{perl_vendorlib}/File/*.pm
 %{_mandir}/man[13]/*
