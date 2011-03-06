@@ -19,6 +19,8 @@ URL:		http://search.cpan.org/dist/File-Which/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
+BuildRequires:	perl(File::Spec) >= 0.60
+BuildRequires:	perl-Test-Script >= 1.05
 BuildRequires:	perl-Test-Simple >= 0.80
 %endif
 BuildArch:	noarch
@@ -56,6 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%attr(755,root,root) %{_bindir}/*
-%{perl_vendorlib}/File/*.pm
-%{_mandir}/man[13]/*
+%attr(755,root,root) %{_bindir}/pwhich
+%{perl_vendorlib}/File/Which.pm
+%{_mandir}/man1/pwhich.1p*
+%{_mandir}/man3/File::Which.3pm*
