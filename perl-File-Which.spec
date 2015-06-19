@@ -16,12 +16,11 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/File/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	554bfb36568d828fbeee64f4b9a9faa8
 URL:		http://search.cpan.org/dist/File-Which/
-BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	perl-devel >= 1:5.8.1
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl(File::Spec) >= 0.60
-BuildRequires:	perl-Test-Script >= 1.05
-BuildRequires:	perl-Test-Simple >= 0.80
+BuildRequires:	perl-Test-Simple >= 0.94
 %endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
