@@ -8,13 +8,13 @@
 Summary:	File::Which Perl module - portable implementation of the `which' utility
 Summary(pl.UTF-8):	Moduł Perla File::Which - przenośna implementacja programu `which'
 Name:		perl-File-Which
-Version:	1.22
+Version:	1.23
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/File/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	face60fafd220dc83fa581ef6f96d480
+# Source0-md5:	c8f054534c3c098dd7a0dada60aaae34
 URL:		http://search.cpan.org/dist/File-Which/
 BuildRequires:	perl-devel >= 1:5.8.1
 BuildRequires:	rpm-perlprov >= 4.1-13
